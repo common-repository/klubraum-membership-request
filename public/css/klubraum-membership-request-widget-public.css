@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.kr-mr-container * {
+  box-sizing: border-box;
+}
+.kr-mr-d {
+    display: block !important;
+}
+.kr-mr-nd {
+    display: none !important;
+}
+.kr-mr-settings-form input {
+    width: 100%;
+}
+.kr-mr-submit-button {
+    margin-top: 15px;
+}
+.kr-mr-message-div {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.kr-mr-logo-container {
+    margin: 0px auto 15px auto !important;
+}
+.kr-mr-logo-container > a > img {
+    width: 100%;
+    max-width: 300px;
+}
+.kr-mr-container .kr-mr-form-wrap {
+  width: calc(100% - 2px);
+  width: calc(100% - var(--button--border-width));
+    position: relative;
+}
+
+.kr-mr-introduction-text-container {
+  margin: 0px auto 15px auto !important;
+}
+
+.kr-mr-alert {
+    padding: 10px;
+    color: white;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.kr-mr-alert-success {
+    background-color: #3d8c40;
+}
+.kr-mr-alert-danger {
+    background-color: #f44336;
+}

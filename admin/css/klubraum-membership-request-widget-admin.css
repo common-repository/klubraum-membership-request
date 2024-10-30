@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.row {
+    width: 100%;
+    overflow: auto;
+}
+.column {
+    width: 23%;
+    float: left;
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    background: aliceblue;
+    margin-left: 20px;
+}
+.column span {
+    position: relative;
+    top: 35%;
+    left: 0;
+}
+.column span a {
+    text-decoration: none;
+}
+.kr-mr-alert-dashboard {
+    padding: 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+.kr-mr-alert-dashboard-success {
+    background-color: #3d8c40;
+}
+.kr-mr-alert-dashboard-danger {
+    background-color: #f44336;
+}

@@ -1,0 +1,131 @@
+# Copyright (C) 2021 Steffen Haak <info@klubraum.com>
+# This file is distributed under the same license as the Klubraum Membership Request plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Klubraum Membership Request 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/klubraum_membership_request_wordpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-06T17:14:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: klubraum-membership-request-widget\n"
+
+#. Plugin Name of the plugin
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:18
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:19
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:42
+msgid "Klubraum Membership Request"
+msgstr "Klubraum Beitrittsanfrage"
+
+#. Plugin URI of the plugin
+msgid "https://klubraum.com/wp-membership-request/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugins allows your web site visitors to request a membership for your Klubraum service."
+msgstr "Diese Plugin erlaubt den Webseiten-Besuchern eine Beitrittsanfrage für Klubraum zu stellen."
+
+#. Author of the plugin
+msgid "Steffen Haak <info@klubraum.com>"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://klubraum.com"
+msgstr ""
+
+#: admin/class-klubraum-membership-request-widget-admin.php:102
+msgid "API token is missing!"
+msgstr "API Token fehlt!"
+
+#: admin/class-klubraum-membership-request-widget-admin.php:140
+msgid "Settings successfully updated!"
+msgstr "Einstellungen erfolgreich gespeichert!"
+
+#: admin/class-klubraum-membership-request-widget-admin.php:166
+msgid "Failed to store settings!"
+msgstr "Einstellungen konnten NICHT gespeichert werden!"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:34
+msgid "Expires at"
+msgstr "Läuft ab am"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:34
+msgid "last request"
+msgstr "letzte Anfrage"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:37
+msgid "No expiry information as no membership request has been made yet."
+msgstr "Ablaufdatum nicht bekannt, da noch keine Beitrittsanfrage gestellt."
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:46
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:75
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:76
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:93
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:49
+msgid "Please provide the API token which you can find in the app under: Settings - Klubraum - API Token. Only available for Klubraum admins."
+msgstr "Bitte gib zunächst das API Token ein, welches du in der Klubraum unter 'Einstellungen - Klubraum - API Token' findest. Du musst dazu Klubraum-Admin sein."
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:50
+msgid "Optionally you can customize the text which is shown in addition to the form."
+msgstr "Du kannst den einführenden Text im Formular anpassen. (optional)"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:54
+msgid "Shortcode"
+msgstr ""
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:57
+msgid "To integrate the membership request form, use the shortcode:"
+msgstr "Um das Widget auf deiner Seite zu verwenden, benutze folgenden Shortcode:"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:61
+msgid "Expiry Date API token"
+msgstr "Ablaufdatum API Token"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:100
+msgid "API token"
+msgstr "API Token"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:106
+msgid "Introduction text"
+msgstr "Einführungstext"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:107
+msgid "Some explaining words about the Klubraum widget"
+msgstr "Ein paar erklärende Worte über das Klubraum Beitritts-Widget"
+
+#: admin/partials/klubraum-membership-request-widget-admin-display.php:112
+msgid "Submit"
+msgstr "Speichern"
+
+#: includes/class-klubraum-membership-request-widget-activator.php:33
+msgid "We are using Klubraum for organizing our community. Do you wanna join?"
+msgstr "Wir nutzen Klubraum um unser Vereinsleben zu organisieren. Willst du beitreten?"
+
+#: public/class-klubraum-membership-request-widget-public.php:119
+#: public/class-klubraum-membership-request-widget-public.php:161
+#: public/class-klubraum-membership-request-widget-public.php:224
+msgid "Failed to request membership!"
+msgstr "Beitrittsanfrage konnte nicht gestellt werden!"
+
+#: public/class-klubraum-membership-request-widget-public.php:154
+msgid "Membership requested successfully!"
+msgstr "Beitrittsanfrage erfolgreich abgeschickt! Bitte überprüfe deine E-Mails."
+
+#: public/class-klubraum-membership-request-widget-public.php:199
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: public/class-klubraum-membership-request-widget-public.php:206
+msgid "Request Membership"
+msgstr "Anfrage abschicken"
+
+#: public/class-klubraum-membership-request-widget-public.php:235
+msgid "Please enter a valid email."
+msgstr "Bitte gib eine gültige E-Mail-Adresse ein."
